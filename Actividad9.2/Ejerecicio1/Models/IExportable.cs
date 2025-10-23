@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ejerecicio1.Models
 {
+    
     public interface IExportable
     {
         public bool Importar(string data,IExportador exportador);
